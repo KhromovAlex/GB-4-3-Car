@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/field"
+    tools:context=".presentation.view.CarFieldFragment">
+
+    <View
+        android:id="@+id/car"
+        android:background="@drawable/ic_baseline_directions_car_24"
+        android:layout_gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+</FrameLayout>
